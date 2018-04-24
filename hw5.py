@@ -13,7 +13,7 @@ def main(filename):
         words = line.split()
         for word in words:
             word = word.strip(string.punctuation)
-            if word != (" "):
+            if word != (''):
                 all_words.append(word)
 
     from collections import Counter
